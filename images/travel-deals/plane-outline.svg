@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 228 167" fill="none">
+  <defs><linearGradient id="paper" x1="120" y1="20" x2="190" y2="105" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset="1" stop-color="#b6d8ff"/></linearGradient></defs>
+  <path d="M4 162c51-14 78-38 72-60-5-17-37-12-34 9 3 19 50 10 79-13" stroke="#fff" stroke-opacity=".72" stroke-width="1.5" stroke-dasharray="5 6" stroke-linecap="round"/>
+  <path d="m65 54 153-43-63 86-19-29-22 15-2-21-47-8Z" fill="url(#paper)"/>
+  <path d="m112 62 106-51-82 57-22 15Z" fill="#8ebdf0"/>
+  <path d="m136 68 82-57-63 86Z" fill="#f8fcff"/>
+  <path d="M65 54 218 11 112 62Z" fill="#fff"/>
+</svg>

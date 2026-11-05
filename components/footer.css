@@ -1,0 +1,124 @@
+.footer {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background: linear-gradient(145deg, #f4faff, #deeffe 82%, #d3eafa);
+  border-top: 1px solid #fff;
+}
+.footer::before,
+.footer::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  width: 29%;
+  height: 100%;
+  pointer-events: none;
+}
+.footer::before {
+  left: 0;
+  background: linear-gradient(147deg, #fff, #d2e8fa 42%, #eef8ff 49%, #e8f4ff);
+  clip-path: polygon(0 0, 37% 0, 19% 31%, 0 48%);
+}
+.footer::after {
+  right: 0;
+  background: linear-gradient(
+    136deg,
+    #f5fbff 35%,
+    #c9e2f6 58%,
+    #fff 59%,
+    #e5f3ff 79%
+  );
+  clip-path: polygon(100% 0, 100% 100%, 0 100%, 55% 73%, 86% 38%);
+}
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 17px;
+  padding: 16px 0 12px;
+}
+.footer .brand {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
+}
+.footer .brand img {
+  width: 133px;
+}
+.footer p {
+  color: #416687;
+  margin-top: 5px;
+  font-size: 12px;
+}
+.footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+}
+.footer nav a {
+  font-size: 13px;
+  font-weight: 660;
+  color: #1c547f;
+}
+.footer nav a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.footer-action {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.footer-art {
+  width: 108px;
+  height: 87px;
+}
+.footer .button {
+  min-height: 37px;
+}
+.footer-end {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 5px;
+  border-top: 1px solid #c5dfef;
+  padding: 9px 0 13px;
+  color: #4f708b;
+  font-size: 11px;
+}
+@media (max-width: 650px) {
+  .footer-inner {
+    flex-wrap: wrap;
+    padding: 13px 0 8px;
+    gap: 10px;
+    position: relative;
+  }
+  .footer-brand {
+    flex: 1 0 100%;
+    padding-right: 70px;
+  }
+  .footer nav {
+    gap: 5px 9px;
+  }
+  .footer nav a {
+    font-size: 12px;
+  }
+  .footer-art {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 67px;
+    height: 64px;
+  }
+  .footer .button {
+    min-height: 32px;
+    padding: 5px 8px;
+    font-size: 12px;
+  }
+  .footer .button .icon {
+    width: 14px;
+    height: 14px;
+  }
+}

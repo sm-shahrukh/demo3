@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 520" fill="none">
+  <defs>
+    <marker id="flight-arrow" markerWidth="12" markerHeight="12" refX="10" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1 1L10 5L1 9" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <mask id="plane-occlusion" maskUnits="userSpaceOnUse" x="0" y="0" width="1600" height="520">
+      <rect width="1600" height="520" fill="#fff"/>
+      <path d="M748 158C773 158 800 171 827 179L946 187C973 181 1001 164 1048 137L1121 106C1141 101 1161 106 1172 116L1143 141L1177 202L1163 212L1018 192C998 194 981 204 963 215L884 264L861 257L906 218L947 197L802 174Z" fill="#000"/>
+    </mask>
+  </defs>
+  <path d="M-8 478C110 453 220 402 300 360C340 338 382 352 389 383C397 420 362 442 327 425C291 408 300 367 333 348C370 326 406 345 421 374C485 424 560 420 636 368C710 317 760 270 809 252C842 240 863 254 884 264" stroke="#fff" stroke-opacity=".94" stroke-width="3" stroke-linecap="round" stroke-dasharray="12 11" marker-end="url(#flight-arrow)" mask="url(#plane-occlusion)"/>
+</svg>
