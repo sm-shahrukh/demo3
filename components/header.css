@@ -168,6 +168,9 @@
   display: block;
   width: 145px;
   height: auto;
+  padding: 7px 10px;
+  border-radius: 8px;
+  background: #fff;
 }
 .site-header .header-brand .brand-plane {
   width: 37px;
@@ -515,6 +518,9 @@
   display: block;
   width: 145px;
   height: auto;
+  padding: 7px 10px !important;
+  border-radius: 8px !important;
+  background: #fff !important;
 }
 
 .travel-navbar .navbar-brand .brand-plane {

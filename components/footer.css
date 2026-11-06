@@ -40,8 +40,9 @@
 }
 .footer .brand {
   border: 0;
-  padding: 0;
-  background: transparent;
+  padding: 5px 8px;
+  background: #fff;
+  border-radius: 8px;
   box-shadow: none;
 }
 .footer .brand img {
