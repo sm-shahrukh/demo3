@@ -39,6 +39,7 @@ body {
   color: var(--ink);
   font-size: var(--font-base);
   line-height: 1.55;
+  zoom: 1.08;
 }
 h1,
 h2,
